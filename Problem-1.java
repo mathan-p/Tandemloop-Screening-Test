@@ -24,14 +24,14 @@ public class Problem1 {
             result = a * b;
         } else if (op.equals("divide")) {
             if (b == 0) {
-                System.out.println("Cannot divide by zero.");
+                System.out.println("Cannot divide by zero");
                 sc.close();
                 return;
             } else {
                 result = a / b;
             }
         } else {
-            System.out.println("Invalid operation.");
+            System.out.println("Invalid operation");
             sc.close();
             return;
         }
